@@ -6,13 +6,12 @@
 //   perimeter(width, height) -> 2 * (width + height)
 //
 // The checks at the bottom print ✅ when your function is correct.
-
 function area(width, height) {
-  // your code here
+  return width * height;
 }
 
 function perimeter(width, height) {
-  // your code here
+  return 2 * (width + height);
 }
 
 // ----- Checks (do not edit) -----

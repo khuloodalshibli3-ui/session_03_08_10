@@ -6,8 +6,9 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function toOMR(baisa) {
-  // your code here
+  return baisa / 1000;
 }
+
 
 // ----- Checks (do not edit) -----
 check("toOMR(1000)", () => toOMR(1000), 1);

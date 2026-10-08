@@ -9,9 +9,14 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function ticketPrice(age, isStudent) {
-  // your code here
+  if (age < 6) {
+    return 0;
+  } else if (age >= 60 || isStudent) {
+    return 1;
+  } else {
+    return 2;
+  }
 }
-
 // ----- Checks (do not edit) -----
 check("ticketPrice(4, false)", () => ticketPrice(4, false), 0);
 check("ticketPrice(25, true)", () => ticketPrice(25, true), 1);
